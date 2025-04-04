@@ -28,7 +28,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3897&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3897&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "PositiveWithLeadingIcon",
@@ -38,7 +38,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3903&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3903&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "PositiveWithTrailingIcon",
@@ -48,7 +48,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3911&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3911&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "preview",
@@ -68,7 +68,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=4-4348&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=4-4348&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "PrimaryWithLeadingIcon",
@@ -78,7 +78,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3910&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3910&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "PrimaryWithTrailingIcon",
@@ -88,7 +88,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3911&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3911&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
             }
         ],
         "functions": [],
@@ -126,7 +126,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3897&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3897&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 },
                 {
                     "name": "PositiveWithLeadingIcon",
@@ -136,7 +136,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3903&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3903&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 },
                 {
                     "name": "PositiveWithTrailingIcon",
@@ -146,7 +146,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3911&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3911&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 },
                 {
                     "name": "Primary",
@@ -156,7 +156,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=4-4348&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=4-4348&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 },
                 {
                     "name": "PrimaryWithLeadingIcon",
@@ -166,7 +166,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3910&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3910&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 },
                 {
                     "name": "PrimaryWithTrailingIcon",
@@ -176,7 +176,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3911&t=UZ25soJGpcmq348k-4'\r\n    },\r\n    docs: {\r\n      source: {\r\n        type: 'auto', // Auto-generates the HTML\r\n        format: 'html', // Ensures it's HTML, not Angular template\r\n      },\r\n    },\r\n  }\r\n}"
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3911&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 }
             ],
             "projects/components/.storybook/preview.ts": [
