@@ -1,0 +1,280 @@
+{
+    "pipes": [],
+    "interfaces": [],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [],
+    "modules": [],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<AplusButtonComponent>",
+                "defaultValue": "{\r\n  title: 'Components/AplusButton',\r\n  component: AplusButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    variant: {\r\n      control: 'select',\r\n      options: ['primary', 'positive'],\r\n      description: 'The visual style variant of the button'\r\n    },\r\n    leadingIcon: {\r\n      control: 'text',\r\n      description: 'Material icon name to display before the button text'\r\n    },\r\n    trailingIcon: {\r\n      control: 'text',\r\n      description: 'Material icon name to display after the button text'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "Positive",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Success\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=7-3896&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+            },
+            {
+                "name": "preview",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/.storybook/preview.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Preview",
+                "defaultValue": "{\r\n  parameters: {\r\n    controls: {\r\n      matchers: {\r\n       color: /(background|color)$/i,\r\n       date: /Date$/i,\r\n      },\r\n    },\r\n  },\r\n}"
+            },
+            {
+                "name": "Primary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Click me\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "WithBothIcons",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    leadingIcon: 'check_circle',\r\n    trailingIcon: 'done'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Complete\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=7-3896&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+            },
+            {
+                "name": "WithLeadingIcon",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Add Item\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+            },
+            {
+                "name": "WithTrailingIcon",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'arrow_forward'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Next\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+            }
+        ],
+        "functions": [],
+        "typealiases": [
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<AplusButtonComponent>",
+                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            }
+        ],
+        "enumerations": [],
+        "groupedVariables": {
+            "projects/components/src/lib/aplus-button/aplus-button.stories.ts": [
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<AplusButtonComponent>",
+                    "defaultValue": "{\r\n  title: 'Components/AplusButton',\r\n  component: AplusButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    variant: {\r\n      control: 'select',\r\n      options: ['primary', 'positive'],\r\n      description: 'The visual style variant of the button'\r\n    },\r\n    leadingIcon: {\r\n      control: 'text',\r\n      description: 'Material icon name to display before the button text'\r\n    },\r\n    trailingIcon: {\r\n      control: 'text',\r\n      description: 'Material icon name to display after the button text'\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "Positive",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Success\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=7-3896&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+                },
+                {
+                    "name": "Primary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Click me\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "WithBothIcons",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'positive',\r\n    leadingIcon: 'check_circle',\r\n    trailingIcon: 'done'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Complete\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=7-3896&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+                },
+                {
+                    "name": "WithLeadingIcon",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    leadingIcon: 'add'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Add Item\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+                },
+                {
+                    "name": "WithTrailingIcon",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'arrow_forward'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Next\r\n      </aplus-button>\r\n    `,\r\n    parameters: {\r\n      design: {\r\n        type: 'figma',\r\n        url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'\r\n      }\r\n    }\r\n  })\r\n}"
+                }
+            ],
+            "projects/components/.storybook/preview.ts": [
+                {
+                    "name": "preview",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/components/.storybook/preview.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Preview",
+                    "defaultValue": "{\r\n  parameters: {\r\n    controls: {\r\n      matchers: {\r\n       color: /(background|color)$/i,\r\n       date: /Date$/i,\r\n      },\r\n    },\r\n  },\r\n}"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {
+            "projects/components/src/lib/aplus-button/aplus-button.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<AplusButtonComponent>",
+                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ]
+        }
+    },
+    "routes": [],
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "projects/components/.storybook/preview.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "preview",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Positive",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WithBothIcons",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WithLeadingIcon",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WithTrailingIcon",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}
