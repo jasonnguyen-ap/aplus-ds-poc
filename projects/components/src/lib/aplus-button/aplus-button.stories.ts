@@ -33,14 +33,57 @@ export const Primary: Story = {
     props: args,
     template: `
       <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
-        Click me
+        Enabled
       </aplus-button>
     `
   }),
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'
+      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=4-4348&t=UZ25soJGpcmq348k-4'
+    }
+  }
+};
+
+
+export const PrimaryWithLeadingIcon: Story = {
+  args: {
+    variant: 'primary',
+    leadingIcon: 'add'
+  },
+  render: (args) => ({
+    props: args,
+    template: `
+      <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
+        Enabled
+      </aplus-button>
+    `
+  }),
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3910&t=UZ25soJGpcmq348k-4'
+    }
+  }
+};
+
+export const PrimaryWithTrailingIcon: Story = {
+  args: {
+    variant: 'primary',
+    trailingIcon: 'keyboard_arrow_down'
+  },
+  render: (args) => ({
+    props: args,
+    template: `
+      <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
+        Enabled
+      </aplus-button>
+    `
+  }),
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3911&t=UZ25soJGpcmq348k-4'
     }
   }
 };
@@ -53,78 +96,57 @@ export const Positive: Story = {
     props: args,
     template: `
       <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
-        Success
+        Enabled
       </aplus-button>
     `
   }),
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=7-3896&t=BwumfkGZ3mL2Q26T-4'
+      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3897&t=UZ25soJGpcmq348k-4'
     }
   }
 };
 
-export const WithLeadingIcon: Story = {
+
+export const PositiveWithLeadingIcon: Story = {
   args: {
-    variant: 'primary',
+    variant: 'positive',
     leadingIcon: 'add'
   },
   render: (args) => ({
     props: args,
     template: `
       <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
-        Add Item
+        Enabled
       </aplus-button>
     `
   }),
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'
+      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3903&t=UZ25soJGpcmq348k-4'
     }
   }
 };
 
-export const WithTrailingIcon: Story = {
-  args: {
-    variant: 'primary',
-    trailingIcon: 'arrow_forward'
-  },
-  render: (args) => ({
-    props: args,
-    template: `
-      <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
-        Next
-      </aplus-button>
-    `
-  }),
-  parameters: {
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=5-3906&t=BwumfkGZ3mL2Q26T-4'
-    }
-  }
-};
-
-export const WithBothIcons: Story = {
+export const PositiveWithTrailingIcon: Story = {
   args: {
     variant: 'positive',
-    leadingIcon: 'check_circle',
-    trailingIcon: 'done'
+    trailingIcon: 'keyboard_arrow_down'
   },
   render: (args) => ({
     props: args,
     template: `
       <aplus-button [variant]="variant" [leadingIcon]="leadingIcon" [trailingIcon]="trailingIcon">
-        Complete
+        Enabled
       </aplus-button>
     `
   }),
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/design/TI2QRswI37Xh8W8h5CrypW/2025-Design-System?node-id=7-3896&t=BwumfkGZ3mL2Q26T-4'
+      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=7-3911&t=UZ25soJGpcmq348k-4'
     }
   }
-}; 
+};
