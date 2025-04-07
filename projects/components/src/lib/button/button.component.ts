@@ -4,8 +4,8 @@ import { CoreModule } from '../core.module';
   selector: 'aplus-button',
   standalone: true,
   imports: [CoreModule],
-  templateUrl: './aplus-button.component.html',
-  styleUrls: ['./aplus-button.component.scss']
+  templateUrl: './button.component.html',
+  styleUrls: ['./button.component.scss']
 })
 export class AplusButtonComponent {
   @Input() variant: 'primary' | 'positive' = 'primary';

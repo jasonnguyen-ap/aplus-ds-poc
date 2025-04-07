@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { AplusButtonComponent } from './aplus-button.component';
+import { AplusButtonComponent } from './button.component';
 
 const meta: Meta<AplusButtonComponent> = {
   title: 'Components/AplusButton',

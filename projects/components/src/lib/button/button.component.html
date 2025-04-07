@@ -2,9 +2,9 @@
     'bg-primary-blue text-white hover:bg-primary-blue/82': variant === 'primary',
     'bg-primary-positive !text-white hover:bg-primary-positive/82': variant === 'positive',
   }">
-  <span *ngIf="leadingIcon" class="material-icons text-2xl">{{ leadingIcon }}</span>
+  <span *ngIf="leadingIcon" class="material-icons-outlined text-2xl">{{ leadingIcon }}</span>
   <span>
     <ng-content></ng-content>
   </span>
-  <span *ngIf="trailingIcon" class="material-icons text-2xl">{{ trailingIcon }}</span>
+  <span *ngIf="trailingIcon" class="material-icons-outlined text-2xl">{{ trailingIcon }}</span>
 </button>
