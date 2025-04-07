@@ -14,7 +14,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<AplusButtonComponent>",
@@ -24,7 +24,7 @@
                 "name": "Positive",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -34,7 +34,7 @@
                 "name": "PositiveWithLeadingIcon",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -44,7 +44,7 @@
                 "name": "PositiveWithTrailingIcon",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -54,7 +54,7 @@
                 "name": "preview",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/.storybook/preview.ts",
+                "file": "projects/aplus-components/.storybook/preview.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Preview",
@@ -64,7 +64,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -74,7 +74,7 @@
                 "name": "PrimaryWithLeadingIcon",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -84,7 +84,7 @@
                 "name": "PrimaryWithTrailingIcon",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -98,7 +98,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<AplusButtonComponent>",
-                "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -107,12 +107,12 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "projects/components/src/lib/aplus-button/aplus-button.stories.ts": [
+            "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts": [
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<AplusButtonComponent>",
@@ -122,7 +122,7 @@
                     "name": "Positive",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -132,7 +132,7 @@
                     "name": "PositiveWithLeadingIcon",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -142,7 +142,7 @@
                     "name": "PositiveWithTrailingIcon",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -152,7 +152,7 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -162,7 +162,7 @@
                     "name": "PrimaryWithLeadingIcon",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -172,19 +172,19 @@
                     "name": "PrimaryWithTrailingIcon",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\r\n  args: {\r\n    variant: 'primary',\r\n    trailingIcon: 'keyboard_arrow_down'\r\n  },\r\n  render: (args) => ({\r\n    props: args,\r\n    template: `\r\n      <aplus-button [variant]=\"variant\" [leadingIcon]=\"leadingIcon\" [trailingIcon]=\"trailingIcon\">\r\n        Enabled\r\n      </aplus-button>\r\n    `\r\n  }),\r\n  parameters: {\r\n    design: {\r\n      type: 'figma',\r\n      url: 'https://www.figma.com/design/3O44xpM4ac9xxnXRvYmbkL/2025-Design-System-POC---Jason?node-id=5-3911&t=UZ25soJGpcmq348k-4'\r\n    }\r\n  }\r\n}"
                 }
             ],
-            "projects/components/.storybook/preview.ts": [
+            "projects/aplus-components/.storybook/preview.ts": [
                 {
                     "name": "preview",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/components/.storybook/preview.ts",
+                    "file": "projects/aplus-components/.storybook/preview.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Preview",
@@ -195,13 +195,13 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "projects/components/src/lib/aplus-button/aplus-button.stories.ts": [
+            "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<AplusButtonComponent>",
-                    "file": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                    "file": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -216,7 +216,7 @@
         "status": "low",
         "files": [
             {
-                "filePath": "projects/components/.storybook/preview.ts",
+                "filePath": "projects/aplus-components/.storybook/preview.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -226,7 +226,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -236,7 +236,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -246,7 +246,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -256,7 +256,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -266,7 +266,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -276,7 +276,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -286,7 +286,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -296,7 +296,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/components/src/lib/aplus-button/aplus-button.stories.ts",
+                "filePath": "projects/aplus-components/src/lib/aplus-button/aplus-button.stories.ts",
                 "type": "type alias",
                 "linktype": "miscellaneous",
                 "linksubtype": "typealias",

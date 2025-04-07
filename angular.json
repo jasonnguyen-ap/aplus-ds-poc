@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "components": {
+    "aplus-components": {
       "projectType": "library",
-      "root": "projects/components",
-      "sourceRoot": "projects/components/src",
+      "root": "projects/aplus-components",
+      "sourceRoot": "projects/aplus-components/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/components/ng-package.json"
+            "project": "projects/aplus-components/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/components/tsconfig.lib.prod.json"
+              "tsConfig": "projects/aplus-components/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/components/tsconfig.lib.json"
+              "tsConfig": "projects/aplus-components/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/components/tsconfig.spec.json",
+            "tsConfig": "projects/aplus-components/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -37,17 +37,17 @@
         "storybook": {
           "builder": "@storybook/angular:start-storybook",
           "options": {
-            "configDir": "projects/components/.storybook",
-            "browserTarget": "components:build",
+            "configDir": "projects/aplus-components/.storybook",
+            "browserTarget": "aplus-components:build",
             "compodoc": true,
             "compodocArgs": [
               "-e",
               "json",
               "-d",
-              "projects/components"
+              "projects/aplus-components"
             ],
             "styles": [
-              "projects/components/src/styles.scss",
+              "projects/aplus-components/src/styles.scss",
               "node_modules/material-icons/iconfont/material-icons.scss"
             ],
             "port": 6006
@@ -56,17 +56,17 @@
         "build-storybook": {
           "builder": "@storybook/angular:build-storybook",
           "options": {
-            "configDir": "projects/components/.storybook",
-            "browserTarget": "components:build",
+            "configDir": "projects/aplus-components/.storybook",
+            "browserTarget": "aplus-components:build",
             "compodoc": true,
             "compodocArgs": [
               "-e",
               "json",
               "-d",
-              "projects/components"
+              "projects/aplus-components"
             ],
             "styles": [
-              "projects/components/src/styles.scss",
+              "projects/aplus-components/src/styles.scss",
               "node_modules/material-icons/iconfont/material-icons.scss"
             ],
             "outputDir": "storybook-static"

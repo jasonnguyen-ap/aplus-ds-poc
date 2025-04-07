@@ -3,8 +3,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "components": [
-        "./dist/components"
+      "aplus-components": [
+        "./dist/aplus-components"
       ]
     },
     "outDir": "./dist/out-tsc",
