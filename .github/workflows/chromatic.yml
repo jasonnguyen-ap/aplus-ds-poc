@@ -7,7 +7,7 @@ on:
 
 jobs:
   chromatic:
-    name: Run Chromatic
+    name: Chromatic
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -26,3 +26,5 @@ jobs:
           # ⚠️ Make sure to configure a `CHROMATIC_PROJECT_TOKEN` repository secret
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           exitZeroOnChanges: false # 👈 Fail workflow if changes are found
+          # 👇 Runs Chromatic with the option to compress the build output.
+          zip: true
