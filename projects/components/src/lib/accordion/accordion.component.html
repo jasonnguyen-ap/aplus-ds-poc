@@ -1,16 +1,16 @@
 <div>
     <div (click)="toggle()" class="flex items-center py-2 gap-x-4 cursor-pointer text-primary-dark-dark text-xl">
-        <div class="material-icons-outlined text-2xl">
+        <div class="material-icons-outlined text-3xl">
             {{icon}}
         </div>
-        <div class="flex-grow font-medium flex items-center">
+        <div class="flex-grow font-medium flex items-center text-3xl">
             {{heading}}
         </div>
         <div [@scale]="expand" class="material-icons-outlined text-2xl block leading-none">
             expand_more
         </div>
     </div>
-    <div *ngIf="expand" @inOutAnimation class="p-3 border-t border-t-gray-200 mt-1 text-gray">
+    <div *ngIf="expand" @inOutAnimation class="p-3 border-t border-t-gray-200 mt-1 text-gray text-lg">
         <ng-content></ng-content>
     </div>
 </div>
